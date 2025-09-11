@@ -1,2 +1,2 @@
 # longevity-website
-This is going to be a website for those who want to improve their health and longevity score by reading on 4 major pillars of health and ageing!
+Building a new social media platform, which is going to be centred around longevity and optimising human health and wellbeing. 

@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  margin: 0;
+  margin: 10px;
 }
 
 body {
@@ -10,6 +10,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+  color: black;
+  text-align: center;
 }
 
 /*Parameters of a header1 */
@@ -28,7 +30,46 @@ h2 {
     padding: 8px;
 }
 
-a {
-    background-color: none;
+h3 {
     color: black;
+    text-align: center;
+    padding: 6px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    padding: 4px;
+}
+
+.section {
+  display: block;
+  width: 100%;
+}
+
+.section h3 + p,
+.section h4 + p {
+  background-color: lightyellow;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+/* Links inside footer */
+a {
+  color: black; 
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.return-to-homage {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 0;
 }
